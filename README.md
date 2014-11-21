@@ -1,4 +1,4 @@
-SpartaHack-web
+Wizard of Font
 ==============
 
 # Wizard of Font
