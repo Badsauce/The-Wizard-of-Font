@@ -81,8 +81,9 @@ bower_components
 .tmp
 dump.rdb
 
-
-
+##Committing locally installed npm packages is silly... even though sails depends on certain local installs...
+##Make sure Puppet handles installing these files
+node_modules
 
 
 ################################################
