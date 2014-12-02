@@ -1,6 +1,3 @@
-Wizard of Font
-==============
-
 # Wizard of Font
 ## The designer behind the curtain
 
