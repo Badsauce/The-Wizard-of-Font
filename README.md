@@ -7,16 +7,21 @@ Wizard of Font is a web application I am developing with Lulu Tang to help users
 
 ### Dependencies
 
-Node.js, Sails.js... maybe some other stuff!?
+[Node](http://nodejs.org/) and [Sails.js](http://sailsjs.org/#/)
 
 ### Local Development Setup
 
-Set up latest version of sails, hope for the best... (I'm working on a vagrant file)
+* Install [vagrant](https://www.vagrantup.com/)
+* cd into the Wizard of Font directory and run "vagrant up"
+* On linux/mac run "ssh vagrant". On Windows I recommend using [putty](http://stackoverflow.com/questions/9885108/ssh-to-vagrant-box-in-windows)
+* Once ssh'd into the vagrant VM run "cd /vagrant"
+* The Sails server is started using "sails lift" it will be accessible at http://localhost:1337/
 
 ### Configuration Variables
 
-Need to dig into sails config
+No config thus far
 
 ### Deploy
 
-Needs doing
+If you can read a puppet manifest you can deploy this project!
+This is suboptimal! I will write a deployment manifest later!
