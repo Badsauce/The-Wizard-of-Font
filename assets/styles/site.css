@@ -67,3 +67,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 body {
   background-color: #137f74;
 }
+
+/* line 1, ../sass/components/_nav.scss */
+header {
+  background-color: #1fccbb;
+  height: 15vh;
+}
+/* line 5, ../sass/components/_nav.scss */
+header .logo {
+  background-color: #397f78;
+  border-radius: 50%;
+  width: 5em;
+  height: 5em;
+}
