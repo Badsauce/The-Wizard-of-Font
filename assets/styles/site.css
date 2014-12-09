@@ -73,6 +73,7 @@ body {
 header {
   background-color: #1fccbb;
   height: 15vh;
+  min-height: 100px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -88,7 +89,7 @@ header {
   padding: .5em;
 }
 
-/* line 10, ../sass/components/_nav.scss */
+/* line 11, ../sass/components/_nav.scss */
 .logo {
   background-color: #397f78;
   border-radius: 50%;
@@ -96,11 +97,11 @@ header {
   height: 5em;
 }
 
-/* line 17, ../sass/components/_nav.scss */
+/* line 18, ../sass/components/_nav.scss */
 .mobile {
   display: block;
 }
-/* line 20, ../sass/components/_nav.scss */
+/* line 21, ../sass/components/_nav.scss */
 .mobile button {
   width: 1.7em;
   height: 1.7em;
@@ -112,16 +113,16 @@ header {
   font-size: 300%;
   color: #397f78;
 }
-/* line 31, ../sass/components/_nav.scss */
+/* line 32, ../sass/components/_nav.scss */
 .mobile button .expanded {
   background: none;
 }
 
-/* line 37, ../sass/components/_nav.scss */
+/* line 38, ../sass/components/_nav.scss */
 .mobile-menu {
   display: none;
 }
-/* line 40, ../sass/components/_nav.scss */
+/* line 41, ../sass/components/_nav.scss */
 .mobile-menu li {
   color: #397f78;
   background-color: #1fccbb;
