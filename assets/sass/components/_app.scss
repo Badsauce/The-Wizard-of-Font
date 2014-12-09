@@ -1,0 +1,19 @@
+.application {
+  margin: auto;
+  margin-top: 10vh;
+
+  h1, li {
+    background-color: $navbar;
+    width: 80%;
+    margin: .5em auto;
+    padding: .5em;
+    font-size: 200%;
+    border-radius: .5em;
+    text-align: center;
+  }
+
+  h1 {
+    color: $darkAccent;
+    margin-bottom: 1em;
+  }
+}
