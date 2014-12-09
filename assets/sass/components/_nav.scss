@@ -34,20 +34,17 @@ header {
   }
 }
 
-
-ul {
+.mobile-menu {
   display: none;
-}
 
-li {
-  color: $darkAccent;
-  background-color: $navbar;
-  height: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-header, li  {
-  box-shadow: 0 1px 0 1px $darkAccent;
+  li {
+    color: $darkAccent;
+    background-color: $navbar;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    box-shadow: 0 1px 0 1px $darkAccent;
+  }
 }

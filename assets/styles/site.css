@@ -117,13 +117,12 @@ header {
   background: none;
 }
 
-/* line 38, ../sass/components/_nav.scss */
-ul {
+/* line 37, ../sass/components/_nav.scss */
+.mobile-menu {
   display: none;
 }
-
-/* line 42, ../sass/components/_nav.scss */
-li {
+/* line 40, ../sass/components/_nav.scss */
+.mobile-menu li {
   color: #397f78;
   background-color: #1fccbb;
   height: 10vh;
@@ -139,9 +138,27 @@ li {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 200%;
+  box-shadow: 0 1px 0 1px #397f78;
 }
 
-/* line 51, ../sass/components/_nav.scss */
-header, li {
-  box-shadow: 0 1px 0 1px #397f78;
+/* line 1, ../sass/components/_app.scss */
+.application {
+  margin: auto;
+  margin-top: 10vh;
+}
+/* line 5, ../sass/components/_app.scss */
+.application h1, .application li {
+  background-color: #1fccbb;
+  width: 80%;
+  margin: .5em auto;
+  padding: .5em;
+  font-size: 200%;
+  border-radius: .5em;
+  text-align: center;
+}
+/* line 15, ../sass/components/_app.scss */
+.application h1 {
+  color: #397f78;
+  margin-bottom: 1em;
 }
