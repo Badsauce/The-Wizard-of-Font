@@ -3,9 +3,6 @@
   <head>
     <title>The Wizard of Font</title>
 
-    <script src="/js/jquery-2.1.1.js"></script>
-    <script src="/js/flowchart.js"></script>
-
     <!-- Viewport mobile tag for sensible mobile support -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -36,23 +33,28 @@
     <link rel="stylesheet" href="/styles/bootstrap-theme.min.css">
     <link rel="stylesheet" href="/styles/bootstrap.css">
     <link rel="stylesheet" href="/styles/bootstrap.min.css">
-    <link rel="stylesheet" href="/styles/components/base.css">
+    <link rel="stylesheet" href="/styles/icomoon.css">
     <link rel="stylesheet" href="/styles/importer.css">
     <link rel="stylesheet" href="/styles/site.css">
     <!--STYLES END-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
 
   <body>
     <header>
       <div class="logo"></div>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>Fonts</li>
-          <li>About</li>
-        </ul>
+      <nav class="mobile">
+        <button class="menu-toggle">
+          <i class="fa fa-bars"></i>
+        </button>
       </nav>
     </header>
+
+    <ul class="mobile-menu">
+      <li>Home</li>
+      <li>Fonts</li>
+      <li>About</li>
+    </ul>
     <%- body %>
 
 
@@ -111,5 +113,11 @@
     <script src="/js/flowchart.js"></script>
     <script src="/js/jquery-2.1.1.js"></script>
     <!--SCRIPTS END-->
+    <script>
+    $('.menu-toggle').click(function() {
+      $(this).toggleClass('expanded');
+      $('.mobile-menu').slideToggle();
+    });
+    </script>
   </body>
 </html>

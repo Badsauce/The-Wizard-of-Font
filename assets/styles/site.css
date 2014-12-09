@@ -66,17 +66,82 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 1, ../sass/components/_base.scss */
 body {
   background-color: #137f74;
+  color: #73fff1;
 }
 
 /* line 1, ../sass/components/_nav.scss */
 header {
   background-color: #1fccbb;
   height: 15vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .5em;
 }
-/* line 5, ../sass/components/_nav.scss */
-header .logo {
+
+/* line 10, ../sass/components/_nav.scss */
+.logo {
   background-color: #397f78;
   border-radius: 50%;
   width: 5em;
   height: 5em;
+}
+
+/* line 17, ../sass/components/_nav.scss */
+.mobile {
+  display: block;
+}
+/* line 20, ../sass/components/_nav.scss */
+.mobile button {
+  width: 1.7em;
+  height: 1.7em;
+  border: 1px solid #397f78;
+  border-radius: .2em;
+  appearance: none;
+  background: none;
+  text-decoration: none;
+  font-size: 300%;
+  color: #397f78;
+}
+/* line 31, ../sass/components/_nav.scss */
+.mobile button .expanded {
+  background: none;
+}
+
+/* line 38, ../sass/components/_nav.scss */
+ul {
+  display: none;
+}
+
+/* line 42, ../sass/components/_nav.scss */
+li {
+  color: #397f78;
+  background-color: #1fccbb;
+  height: 10vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 51, ../sass/components/_nav.scss */
+header, li {
+  box-shadow: 0 1px 0 1px #397f78;
 }
