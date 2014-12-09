@@ -163,3 +163,21 @@ header {
   color: #397f78;
   margin-bottom: 1em;
 }
+
+/* line 1, ../sass/components/_fonts.scss */
+.fonts {
+  margin: auto;
+  margin-top: 10vh;
+}
+/* line 5, ../sass/components/_fonts.scss */
+.fonts h1 {
+  background-color: #1fccbb;
+  width: 80%;
+  margin: .5em auto;
+  padding: .5em;
+  font-size: 200%;
+  border-radius: .5em;
+  text-align: center;
+  color: #397f78;
+  margin-bottom: 1em;
+}
