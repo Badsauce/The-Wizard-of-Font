@@ -87,9 +87,10 @@ header {
       -ms-flex-align: center;
           align-items: center;
   padding: .5em;
+  border-bottom: 1px solid rgba(1, 2, 3, 0.5);
 }
 
-/* line 11, ../sass/components/_nav.scss */
+/* line 12, ../sass/components/_nav.scss */
 .logo {
   background-color: #397f78;
   border-radius: 50%;
@@ -97,11 +98,11 @@ header {
   height: 5em;
 }
 
-/* line 18, ../sass/components/_nav.scss */
+/* line 19, ../sass/components/_nav.scss */
 .mobile {
   display: block;
 }
-/* line 21, ../sass/components/_nav.scss */
+/* line 22, ../sass/components/_nav.scss */
 .mobile button {
   width: 1.7em;
   height: 1.7em;
@@ -113,16 +114,16 @@ header {
   font-size: 300%;
   color: #397f78;
 }
-/* line 32, ../sass/components/_nav.scss */
+/* line 33, ../sass/components/_nav.scss */
 .mobile button .expanded {
   background: none;
 }
 
-/* line 38, ../sass/components/_nav.scss */
+/* line 39, ../sass/components/_nav.scss */
 .mobile-menu {
   display: none;
 }
-/* line 41, ../sass/components/_nav.scss */
+/* line 42, ../sass/components/_nav.scss */
 .mobile-menu li {
   color: #397f78;
   background-color: #1fccbb;
@@ -140,7 +141,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
   font-size: 200%;
-  box-shadow: 0 1px 0 1px #397f78;
+  border-bottom: 1px solid rgba(1, 2, 3, 0.5);
 }
 
 /* line 1, ../sass/components/_app.scss */
@@ -198,4 +199,60 @@ header {
 .fonts p {
   font-size: 125%;
   padding: .1em .5em;
+}
+
+/* line 1, ../sass/components/_about.scss */
+.about {
+  margin: auto;
+  margin-top: 5vh;
+}
+/* line 5, ../sass/components/_about.scss */
+.about article {
+  margin-bottom: 5vh;
+}
+/* line 9, ../sass/components/_about.scss */
+.about h1 {
+  background-color: #1fccbb;
+  width: 80%;
+  margin: .5em auto;
+  padding: .5em;
+  font-size: 200%;
+  border-radius: .5em;
+  text-align: center;
+  color: #397f78;
+  margin-bottom: 1em;
+}
+/* line 21, ../sass/components/_about.scss */
+.about img {
+  display: block;
+  border-radius: 50%;
+  margin: auto;
+}
+/* line 27, ../sass/components/_about.scss */
+.about h2 {
+  text-align: center;
+  font-size: 150%;
+  margin-bottom: .5em;
+}
+/* line 33, ../sass/components/_about.scss */
+.about p {
+  text-align: center;
+  font-size: 125%;
+  margin-bottom: .1em;
+}
+/* line 39, ../sass/components/_about.scss */
+.about div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 200%;
+}
+/* line 45, ../sass/components/_about.scss */
+.about a {
+  padding: .1em;
 }

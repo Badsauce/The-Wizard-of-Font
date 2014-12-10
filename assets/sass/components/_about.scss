@@ -1,0 +1,48 @@
+.about {
+  margin: auto;
+  margin-top: 5vh;
+
+  article {
+    margin-bottom: 5vh;
+  }
+
+  h1 {
+    background-color: $navbar;
+    width: 80%;
+    margin: .5em auto;
+    padding: .5em;
+    font-size: 200%;
+    border-radius: .5em;
+    text-align: center;
+    color: $darkAccent;
+    margin-bottom: 1em;
+  }
+
+  img {
+    display: block;
+    border-radius: 50%;
+    margin: auto;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 150%;
+    margin-bottom: .5em;
+  }
+
+  p {
+    text-align: center;
+    font-size: 125%;
+    margin-bottom: .1em;
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+  }
+
+  a {
+    padding: .1em;
+  }
+}
