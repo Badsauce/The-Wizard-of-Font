@@ -1,6 +1,7 @@
 .about {
   margin: auto;
   margin-top: 5vh;
+  color: $textColorAlt;
 
   article {
     margin-bottom: 5vh;
@@ -33,6 +34,7 @@
   p {
     text-align: center;
     font-size: 125%;
+    padding: 0 1em;
     margin-bottom: .1em;
   }
 
