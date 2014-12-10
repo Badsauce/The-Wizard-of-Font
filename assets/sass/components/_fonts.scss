@@ -1,6 +1,6 @@
 .fonts {
   margin: auto;
-  margin-top: 10vh;
+  margin-top: 5vh;
 
   h1{
     background-color: $navbar;
@@ -12,6 +12,24 @@
     text-align: center;
     color: $darkAccent;
     margin-bottom: 1em;
+  }
+
+  article {
+    background-color: $darkAccent;
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgba(1, 2, 3, .5);
+  }
+
+  h2 {
+    display: inline-block;
+    background-color: $navbar;
+    font-size: 150%;
+    padding: .25em;
+  }
+
+  p {
+    font-size: 125%;
+    padding: .1em .5em;
   }
 
 }

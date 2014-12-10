@@ -167,7 +167,7 @@ header {
 /* line 1, ../sass/components/_fonts.scss */
 .fonts {
   margin: auto;
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
 /* line 5, ../sass/components/_fonts.scss */
 .fonts h1 {
@@ -180,4 +180,22 @@ header {
   text-align: center;
   color: #397f78;
   margin-bottom: 1em;
+}
+/* line 17, ../sass/components/_fonts.scss */
+.fonts article {
+  background-color: #397f78;
+  padding-bottom: 1em;
+  border-bottom: 1px solid rgba(1, 2, 3, 0.5);
+}
+/* line 23, ../sass/components/_fonts.scss */
+.fonts h2 {
+  display: inline-block;
+  background-color: #1fccbb;
+  font-size: 150%;
+  padding: .25em;
+}
+/* line 30, ../sass/components/_fonts.scss */
+.fonts p {
+  font-size: 125%;
+  padding: .1em .5em;
 }
