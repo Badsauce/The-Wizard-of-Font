@@ -5,7 +5,7 @@
 
     <!-- Viewport mobile tag for sensible mobile support -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+    <meta charset="UTF-8">
 
     <!--
         Stylesheets and Preprocessors
@@ -42,12 +42,19 @@
   <body>
     <header>
       <a href="/">
-        <img src="images/WoF_logo.svg" class="logo"/>
+        <img src="images/WoF_logo.svg" alt="site logo" class="logo"/>
       </a>
       <nav class="mobile">
         <button class="menu-toggle">
           <i class="fa fa-bars"></i>
         </button>
+      </nav>
+      <nav class="desktop">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/fonts">Fonts</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
       </nav>
     </header>
 
@@ -116,7 +123,6 @@
     <!--SCRIPTS END-->
     <script>
     $('.menu-toggle').click(function() {
-      $(this).toggleClass('expanded');
       $('.mobile-menu').slideToggle();
     });
     </script>

@@ -78,6 +78,11 @@ a:visited {
   color: #cccac6;
 }
 
+/* line 14, ../sass/components/_base.scss */
+section {
+  max-width: 960px;
+}
+
 /* line 1, ../sass/components/_nav.scss */
 header {
   background-color: #44726F;
@@ -98,20 +103,64 @@ header {
   padding: .5em;
   border-bottom: 1px solid rgba(1, 2, 3, 0.5);
 }
+@media (min-width: 800px) {
+  /* line 1, ../sass/components/_nav.scss */
+  header {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
 
-/* line 12, ../sass/components/_nav.scss */
+/* line 16, ../sass/components/_nav.scss */
 .logo {
   background-color: #EFDA51;
   border-radius: 50%;
-  width: 5em;
-  height: 5em;
+  width: 14vh;
+  height: 14vh;
+}
+@media (min-width: 800px) {
+  /* line 16, ../sass/components/_nav.scss */
+  .logo {
+    margin: 0 1em;
+  }
 }
 
-/* line 19, ../sass/components/_nav.scss */
+/* line 27, ../sass/components/_nav.scss */
+.desktop {
+  display: none;
+}
+/* line 30, ../sass/components/_nav.scss */
+.desktop li {
+  display: inline-block;
+  border: 1px solid #EFDA51;
+  border-radius: .2em;
+  font-size: 150%;
+  padding: .5em;
+}
+/* line 37, ../sass/components/_nav.scss */
+.desktop li:hover {
+  background: #DEB73D;
+}
+@media (min-width: 800px) {
+  /* line 27, ../sass/components/_nav.scss */
+  .desktop {
+    display: block;
+  }
+}
+
+/* line 47, ../sass/components/_nav.scss */
 .mobile {
   display: block;
 }
-/* line 22, ../sass/components/_nav.scss */
+@media (min-width: 800px) {
+  /* line 47, ../sass/components/_nav.scss */
+  .mobile {
+    display: none;
+  }
+}
+/* line 54, ../sass/components/_nav.scss */
 .mobile button {
   width: 1.7em;
   height: 1.7em;
@@ -123,16 +172,12 @@ header {
   font-size: 300%;
   color: #EFDA51;
 }
-/* line 33, ../sass/components/_nav.scss */
-.mobile button .expanded {
-  background: none;
-}
 
-/* line 39, ../sass/components/_nav.scss */
+/* line 67, ../sass/components/_nav.scss */
 .mobile-menu {
   display: none;
 }
-/* line 42, ../sass/components/_nav.scss */
+/* line 70, ../sass/components/_nav.scss */
 .mobile-menu li {
   color: #EFDA51;
   background-color: #44726F;

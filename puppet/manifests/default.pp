@@ -25,3 +25,9 @@ package { 'compass':
   provider => 'gem',
   require => Package['ruby-dev'],
 }
+
+package { 'autoprefixer-rails':
+  ensure => 'installed',
+  provider => 'gem',
+  require => Package['ruby-dev'],
+}

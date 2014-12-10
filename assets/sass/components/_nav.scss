@@ -7,17 +7,49 @@ header {
   align-items: center;
   padding: .5em;
   border-bottom: 1px solid rgba(1, 2, 3, .5);
+
+  @media (min-width: 800px) {
+    justify-content: flex-start;
+  }
 }
 
 .logo {
   background-color: $darkAccent;
   border-radius: 50%;
-  width: 5em;
-  height: 5em;
+  width: 14vh;
+  height: 14vh;
+
+  @media (min-width: 800px) {
+    margin: 0 1em;
+  }
+}
+
+.desktop {
+  display: none;
+
+  li {
+    display: inline-block;
+    border: 1px solid $darkAccent;
+    border-radius: .2em;
+    font-size: 150%;
+    padding: .5em;
+
+    &:hover {
+      background: #DEB73D;
+    }
+  }
+
+  @media (min-width: 800px) {
+    display: block
+  }
 }
 
 .mobile {
   display: block;
+
+  @media (min-width: 800px) {
+    display: none;
+  }
 
   button {
     width: 1.7em;
@@ -29,10 +61,6 @@ header {
     text-decoration:none;
     font-size: 300%;
     color: $darkAccent;
-
-    .expanded {
-      background: none;
-    }
   }
 }
 
