@@ -234,11 +234,20 @@ header {
           justify-content: center;
   margin: auto;
 }
+/* line 28, ../sass/components/_app.scss */
+.application li {
+  -webkit-transition: background-color .5s;
+          transition: background-color .5s;
+}
 @media (min-width: 960px) {
   /* line 28, ../sass/components/_app.scss */
   .application li {
     width: 45%;
   }
+}
+/* line 35, ../sass/components/_app.scss */
+.application li:hover {
+  background-color: #EFDA51;
 }
 
 /* line 1, ../sass/components/_fonts.scss */

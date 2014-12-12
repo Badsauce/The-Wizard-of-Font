@@ -26,8 +26,14 @@
   }
 
   li {
+    transition: background-color .5s;
+
     @media (min-width: 960px) {
       width: 45%;
+    }
+
+    &:hover {
+      background-color: $darkAccent;
     }
   }
 }
