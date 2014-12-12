@@ -16,4 +16,18 @@
     color: $darkAccent;
     margin-bottom: 1em;
   }
+
+  ul {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+  }
+
+  li {
+    @media (min-width: 960px) {
+      width: 45%;
+    }
+  }
 }

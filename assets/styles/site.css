@@ -218,6 +218,28 @@ header {
   color: #EFDA51;
   margin-bottom: 1em;
 }
+/* line 20, ../sass/components/_app.scss */
+.application ul {
+  width: 80%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+@media (min-width: 960px) {
+  /* line 28, ../sass/components/_app.scss */
+  .application li {
+    width: 45%;
+  }
+}
 
 /* line 1, ../sass/components/_fonts.scss */
 .fonts {
