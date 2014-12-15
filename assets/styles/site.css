@@ -138,8 +138,11 @@ header {
   border-radius: .2em;
   font-size: 150%;
   padding: .5em;
+  margin-right: 1em;
+  -webkit-transition: background-color .5s;
+          transition: background-color .5s;
 }
-/* line 37, ../sass/components/_nav.scss */
+/* line 39, ../sass/components/_nav.scss */
 .desktop li:hover {
   background: #DEB73D;
 }
@@ -150,17 +153,17 @@ header {
   }
 }
 
-/* line 47, ../sass/components/_nav.scss */
+/* line 49, ../sass/components/_nav.scss */
 .mobile {
   display: block;
 }
 @media (min-width: 800px) {
-  /* line 47, ../sass/components/_nav.scss */
+  /* line 49, ../sass/components/_nav.scss */
   .mobile {
     display: none;
   }
 }
-/* line 54, ../sass/components/_nav.scss */
+/* line 56, ../sass/components/_nav.scss */
 .mobile button {
   width: 1.7em;
   height: 1.7em;
@@ -173,11 +176,11 @@ header {
   color: #EFDA51;
 }
 
-/* line 67, ../sass/components/_nav.scss */
+/* line 69, ../sass/components/_nav.scss */
 .mobile-menu {
   display: none;
 }
-/* line 70, ../sass/components/_nav.scss */
+/* line 72, ../sass/components/_nav.scss */
 .mobile-menu li {
   color: #EFDA51;
   background-color: #44726F;

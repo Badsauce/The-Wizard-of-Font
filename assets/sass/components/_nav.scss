@@ -33,6 +33,8 @@ header {
     border-radius: .2em;
     font-size: 150%;
     padding: .5em;
+    margin-right: 1em;
+    transition: background-color .5s;
 
     &:hover {
       background: #DEB73D;
