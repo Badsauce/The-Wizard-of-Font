@@ -1,7 +1,14 @@
-$background: #DEB73D;
-$navbar: #44726F;
-$darkAccent: #EFDA51;
-$textColor: #73fff1;
-$textColorAlt: #44726F;
-$visitedLink: #cccac6;
-$link: #96d0d8;
+$mustard: #DEB73D;
+$icy: #73fff1;
+$seaWater: #44726F;
+$sunlight: #EFDA51;
+$steel: #cccac6;
+$overcastSky: #96d0d8;
+
+$background: $mustard;
+$navbar: $seaWater;
+$darkAccent: $sunlight;
+$textColor: $icy;
+$textColorAlt: $seaWater;
+$visitedLink: $steel;
+$link: $overcastSky;

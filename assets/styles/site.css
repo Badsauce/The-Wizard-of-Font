@@ -115,7 +115,6 @@ header {
 
 /* line 16, ../sass/components/_nav.scss */
 .logo {
-  background-color: #EFDA51;
   border-radius: 50%;
   width: 14vh;
   height: 14vh;
@@ -127,11 +126,11 @@ header {
   }
 }
 
-/* line 27, ../sass/components/_nav.scss */
+/* line 26, ../sass/components/_nav.scss */
 .desktop {
   display: none;
 }
-/* line 30, ../sass/components/_nav.scss */
+/* line 29, ../sass/components/_nav.scss */
 .desktop li {
   display: inline-block;
   border: 1px solid #EFDA51;
@@ -142,28 +141,28 @@ header {
   -webkit-transition: background-color .5s;
           transition: background-color .5s;
 }
-/* line 39, ../sass/components/_nav.scss */
+/* line 38, ../sass/components/_nav.scss */
 .desktop li:hover {
   background: #DEB73D;
 }
 @media (min-width: 800px) {
-  /* line 27, ../sass/components/_nav.scss */
+  /* line 26, ../sass/components/_nav.scss */
   .desktop {
     display: block;
   }
 }
 
-/* line 49, ../sass/components/_nav.scss */
+/* line 48, ../sass/components/_nav.scss */
 .mobile {
   display: block;
 }
 @media (min-width: 800px) {
-  /* line 49, ../sass/components/_nav.scss */
+  /* line 48, ../sass/components/_nav.scss */
   .mobile {
     display: none;
   }
 }
-/* line 56, ../sass/components/_nav.scss */
+/* line 55, ../sass/components/_nav.scss */
 .mobile button {
   width: 1.7em;
   height: 1.7em;
@@ -176,11 +175,11 @@ header {
   color: #EFDA51;
 }
 
-/* line 69, ../sass/components/_nav.scss */
+/* line 68, ../sass/components/_nav.scss */
 .mobile-menu {
   display: none;
 }
-/* line 72, ../sass/components/_nav.scss */
+/* line 71, ../sass/components/_nav.scss */
 .mobile-menu li {
   color: #EFDA51;
   background-color: #44726F;
