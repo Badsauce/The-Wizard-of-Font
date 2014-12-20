@@ -2,7 +2,7 @@
   margin: auto;
   margin-top: 10vh;
 
-  h1, li {
+  li {
     background-color: $navbar;
     width: 80%;
     margin: .5em auto;
@@ -10,11 +10,6 @@
     font-size: 200%;
     border-radius: .5em;
     text-align: center;
-  }
-
-  h1 {
-    color: $darkAccent;
-    margin-bottom: 1em;
   }
 
   ul {
@@ -28,12 +23,12 @@
   li {
     transition: background-color .5s;
 
-    @media (min-width: 960px) {
-      width: 45%;
-    }
-
     &:hover {
       background-color: $darkAccent;
+    }
+
+    @media (min-width: 960px) {
+      width: 45%;
     }
   }
 }
